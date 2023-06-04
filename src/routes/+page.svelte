@@ -6,7 +6,7 @@
 <div class="header">
     <div class="Icon">
         <h1>Логика</h1>
-        <p>Живи и учись</p>
+        <p>Лучшие инструменты</p>
     </div>
     <div class="menu">
         <div class="item"><a href=""><h2>О нас</h2><p>важно</p></a></div>
@@ -19,7 +19,7 @@
     <div class="EmpInfoMain">
         <h3>Лучший сотрудник месяца</h3>
         <p></p>
-        <img alt="Сотрудник месяца" src="images/EmployeeOfTheMonth.jpg">
+        <img alt="Сотрудник месяца" src="static/images/EmployeeOfTheMonth.jpg">
     </div>
     <div class="IdologyInfoMain">
         <div class="TaskIdol">
@@ -37,21 +37,47 @@
         </div>
         <div class="Office">
             <div class="OfficeImg">
-                <img src="images/Office1.jpg" alt="Офис в Москве">
-                <img src="images/Office2.jpg" alt="Офис в спб">
+                <img src="static/images/Office1.jpg" alt="Офис в Москве">
+                <img src="static/images/Office2.jpg" alt="Офис в спб">
             </div>
             <div class="AboutOffice">
                 <p>
                     Наши главные офисы расположенны как в Москве, так и в Санкт-Петербурге. Офисы находятся в просторных и современных зданиях в центре городов. Каждый, кто попадает в наши офисы, сразу чувствует энергию и творческий дух, который оживляет нашу команду. Мы постарались создать комфортное и продуманное пространство, чтобы наши сотрудники могли максимально эффективно работать. У нас есть несколько открытых рабочих площадок, где команды могут свободно общаться и сотрудничать друг с другом. Также у нас есть комнаты для встреч и переговоров, оборудованные новейшими технологиями для проведения онлайн-встреч и конференций.
                 </p>
             </div>
+            <div class="OurClients">
+                <div class="ClientsText">
+                    <p>Наши клиенты</p>
+                </div>
+                <div class="ClientsImg">
+                    <img src="static/images/ClientVk.png" alt="kVk">
+                    <img src="static/images/ClientYa.jpg" alt="aYa">
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <div class="aside">
-    
+    <div class="ArticleImg">
+        <img src="static/images/icon.jpg" alt="icon">
+    </div>
+    <div class="Article">
+        <img src="static/images/moose.jpg" alt="moose">
+        <p>03.06.2023</p>
+        <p>
+            Меня зовут Илья , и я хочу рассказать о фреймворке Svelte, который стал для меня настоящей находкой. Для тех, кто не знаком с этим инструментом, Svelte - это open-source JavaScript-фреймворк для создания веб-приложений.
+            Одно из главных преимуществ Svelte - это то, что он позволяет писать код практически так же, как в обычном HTML и CSS. Для сравнения, во многих других фреймворках <i>....</i>
+        </p>
+    </div>
+    <div class="Article">
+        <img src="static/images/Kat.jpg" alt="Kat">
+        <p>02.06.2023</p>
+        <p>
+            Привет всем! Меня зовут Василий, и сегодня я хочу рассказать вам о моем любимом JavaScript-фреймворке - React. В настоящее время React является одним из самых популярных фреймворков в веб-разработке. Я хочу поделиться с вами своим опытом и объяснить, почему я считаю, что React - отличный выбор для разработки приложений любого уровня сложности. <i>....</i>
+        </p>
+    </div>
 </div>
 <div class="footer">
-
+    <p>&#x24b8 2023</p>
 </div>
 </div>
