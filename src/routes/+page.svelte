@@ -8,25 +8,23 @@
             <h1>Логика</h1>
             <p>Лучшие инструменты</p>
         </div>
-        <div class="menu">
-            <div class="item">
-                <a href=""
-                    ><h2>О нас</h2>
-                    <p>важно</p></a
-                >
-            </div>
-            <div class="item">
-                <h2>Блог</h2>
-                блог компании
-            </div>
-            <div class="item">
-                <h2>Статьи</h2>
-                лучшие статьи
-            </div>
-            <div class="item">
-                <h2>Программы</h2>
-                для бизнесса
-            </div>
+        <div class="item">
+            <a href=""
+                ><h2>О нас</h2>
+                <p>важно</p></a
+            >
+        </div>
+        <div class="item">
+            <h2>Блог</h2>
+            блог компании
+        </div>
+        <div class="item">
+            <h2>Статьи</h2>
+            лучшие статьи
+        </div>
+        <div class="item">
+            <h2>Программы</h2>
+            для бизнесса
         </div>
     </div>
     <div class="main">
@@ -127,13 +125,12 @@
     </div>
 </div>
 
-
 <style>
     .header {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background-color: #231A09;
+        background-color: #231a09;
         color: white;
     }
 </style>
