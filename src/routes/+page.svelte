@@ -132,5 +132,6 @@
         justify-content: center;
         background-color: #231a09;
         color: white;
+        margin: 10px 10px 10px 10px;
     }
 </style>
