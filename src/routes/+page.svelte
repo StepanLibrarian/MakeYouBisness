@@ -156,9 +156,9 @@
         justify-content: space-around;
     }
     .item {
-        border: solid #000000 1px;
-        margin-left: 10px;
+        margin-left: 20px;
         color: white;
+        text-align: center;
     }
     a {
         color: white;
