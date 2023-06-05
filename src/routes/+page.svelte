@@ -8,29 +8,31 @@
             <h1>Логика</h1>
             <p>Лучшие инструменты</p>
         </div>
-        <div class="item">
-            <a href="">
-                <h2>О нас</h2>
-                <p>важно</p>
-            </a>
-        </div>
-        <div class="item">
-            <a href="">
-                <h2>Блог</h2>
-                <p>блог компании</p>
-            </a>
-        </div>
-        <div class="item">
-            <a href="">
-                <h2>Статьи</h2>
-                <p>лучшие статьи</p>
-            </a>
-        </div>
-        <div class="item">
-            <a href="">
-                <h2>Программы</h2>
-                <p>для бизнесса</p>
-            </a>
+        <div class="menu">
+            <div class="item">
+                <a href="">
+                    <h2>О нас</h2>
+                    <p>важно</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <h2>Блог</h2>
+                    <p>блог компании</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <h2>Статьи</h2>
+                    <p>лучшие статьи</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <h2>Программы</h2>
+                    <p>для бизнесса</p>
+                </a>
+            </div>
         </div>
     </div>
     <div class="MainContainer">
@@ -144,10 +146,14 @@
     .header {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         background-color: #231a09;
         color: white;
-        margin: 10px 10px 10px 10px;
+        margin-left: 10px;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-around;
     }
     .item {
         border: solid #000000 1px;
