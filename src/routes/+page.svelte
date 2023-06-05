@@ -157,6 +157,17 @@
     }
     .item {
         border: solid #000000 1px;
+        margin-left: 10px;
+        color: white;
+    }
+    a {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
+    a:active {
+        color: grey;
     }
     .MainContainer {
         display: flex;
