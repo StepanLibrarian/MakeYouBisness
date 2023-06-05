@@ -37,7 +37,7 @@
     </div>
     <div class="MainContainer">
         <div class="main">
-            <img src="/images/ma.jpg" alt="горы">
+            <img src="/images/ma.jpg" alt="горы" width="200px">
             <div class="EmpInfoMain">
                 <h3>Лучший сотрудник месяца</h3>
                 <p />
