@@ -151,6 +151,7 @@
         color: white;
         margin-left: 10px;
         border-radius: 10px 0px 10 px 0px;
+        border: #231a09 solid 1px;
     }
     .menu {
         display: flex;
