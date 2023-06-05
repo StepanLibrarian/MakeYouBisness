@@ -150,6 +150,7 @@
         background-color: #231a09;
         color: white;
         margin-left: 10px;
+        border-radius: 10px 0px 10 px 0px;
     }
     .menu {
         display: flex;
@@ -159,6 +160,10 @@
         margin-left: 20px;
         color: white;
         text-align: center;
+        margin-right: 10px;
+    }
+    .icon {
+        margin-left: 10px;
     }
     a {
         color: white;
