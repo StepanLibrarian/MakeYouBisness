@@ -162,12 +162,15 @@
     }
     a {
         color: white;
+        text-decoration: none;
     }
     a:visited {
         color: white;
+        text-decoration: none;
     }
     a:active {
         color: grey;
+        text-decoration: none;
     }
     .MainContainer {
         display: flex;
