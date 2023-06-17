@@ -43,6 +43,7 @@
                     <h3>Лучший сотрудник месяца</h3>
                     <p />
                     <img
+                        width="200px"
                         alt="Сотрудник месяца"
                         src="images/EmployeeOfTheMonth.jpg"
                     />
@@ -76,8 +77,8 @@
                 </div>
                 <div class="Office">
                     <div class="OfficeImg">
-                        <img src="images/Office1.jpg" alt="Офис в Москве" />
-                        <img src="images/Office2.jpg" alt="Офис в спб" />
+                        <img src="images/Office1.jpg" alt="Офис в Москве" width="200px"/>
+                        <img src="images/Office2.jpg" alt="Офис в спб" width="200px"/>
                     </div>
                     <div class="AboutOffice">
                         <p>
@@ -96,24 +97,15 @@
                             для проведения онлайн-встреч и конференций.
                         </p>
                     </div>
-                    <div class="OurClients">
-                        <div class="ClientsText">
-                            <p>Наши клиенты</p>
-                        </div>
-                        <div class="ClientsImg">
-                            <img src="images/ClientVk.png" alt="kVk" />
-                            <img src="images/ClientYa.jpg" alt="aYa" />
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
         <div class="aside">
             <div class="ArticleImg">
-                <img src="images/icon.jpg" alt="icon" />
+                <img src="images/icon.jpg" alt="icon" width="200px"/>
             </div>
             <div class="Article">
-                <img src="images/moose.jpg" alt="moose" />
+                <img src="images/moose.jpg" alt="moose" width="200px"/>
                 <p>03.06.2023</p>
                 <p>
                     Меня зовут Илья , и я хочу рассказать о фреймворке Svelte,
@@ -126,7 +118,7 @@
                 </p>
             </div>
             <div class="Article">
-                <img src="images/Kat.jpg" alt="Kat" />
+                <img src="images/Kat.jpg" alt="Kat" width="200px"/>
                 <p>02.06.2023</p>
                 <p>
                     Привет всем! Меня зовут Василий, и сегодня я хочу рассказать
