@@ -1,181 +1,81 @@
 <svelte:head>
-    <title>Логика</title>
+    <title>Волк</title>
 </svelte:head>
 
 <div class="container">
-    <div class="header">
-        <div class="Icon">
-            <h1>Логика</h1>
-            <p>Лучшие инструменты</p>
-        </div>
-        <div class="menu">
-            <div class="item">
-                <a href="">
-                    <h2>О нас</h2>
-                    <p>важно</p>
-                </a>
-            </div>
-            <div class="item">
-                <a href="">
-                    <h2>Блог</h2>
-                    <p>блог компании</p>
-                </a>
-            </div>
-            <div class="item">
-                <a href="">
-                    <h2>Статьи</h2>
-                    <p>лучшие статьи</p>
-                </a>
-            </div>
-            <div class="item">
-                <a href="">
-                    <h2>Программы</h2>
-                    <p>для бизнесса</p>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="MainContainer">
-        <div class="main">
-            <img src="/images/ma.jpg" alt="горы" width="200px" />
-            <div class="MainHead">
-                <div class="EmpInfoMain">
-                    <h3>Лучший сотрудник месяца</h3>
-                    <p />
-                    <img
-                        width="200px"
-                        alt="Сотрудник месяца"
-                        src="images/EmployeeOfTheMonth.jpg"
-                    />
+    <div class="info">
+        <div class="animate-background">
+            <div class="container info-container">
+                <div class="info-text">
+                    <h1> 
+                        <p class="animate-text-1">Волк — вид хищных млекопитающих из семейства псовых.</p>
+                        <p class="text-2">Когда-то волк имел гораздо большее распространение в Евразии и Северной Америке.</p>
+                    </h1>
                 </div>
-                <div class="IdologyInfoMain">
-                    <div class="TaskIdol">
-                        <h3>Наша цель</h3>
-                        <p>
-                            Главная цель нашей компании - создание полезного
-                            продукта для начинающих и опытных бизнесменов! Для
-                            достижения этой цели мы нанимаем лучших менеджеров,
-                            программистов и тестировщиков, которые готовы
-                            добросовестно трудиться над созданием лучшего
-                            продукта в своем роде!
-                        </p>
-                    </div>
-                    <div class="DesireIdol">
-                        <h3>Наши желания</h3>
-                        <p>
-                            Мы хотим стать ведущей компанией в сфере разработки
-                            профессиональных инструментов для бизнеса. Мы
-                            стремимся создавать продукты, которые будут помогать
-                            достигать новых высот в своей деятельности. Мы верим
-                            в командную работу, важность каждого члена нашей
-                            команды и честность в отношениях с нашими клиентами.
-                            У нас нет предела совершенству, и мы всегда ищем
-                            новые решения и возможности для улучшения наших
-                            продуктов.
-                        </p>
-                    </div>
-                </div>
-                <div class="Office">
-                    <div class="OfficeImg">
-                        <img src="images/Office1.jpg" alt="Офис в Москве" width="200px"/>
-                        <img src="images/Office2.jpg" alt="Офис в спб" width="200px"/>
-                    </div>
-                    <div class="AboutOffice">
-                        <p>
-                            Наши главные офисы расположенны как в Москве, так и
-                            в Санкт-Петербурге. Офисы находятся в просторных и
-                            современных зданиях в центре городов. Каждый, кто
-                            попадает в наши офисы, сразу чувствует энергию и
-                            творческий дух, который оживляет нашу команду. Мы
-                            постарались создать комфортное и продуманное
-                            пространство, чтобы наши сотрудники могли
-                            максимально эффективно работать. У нас есть
-                            несколько открытых рабочих площадок, где команды
-                            могут свободно общаться и сотрудничать друг с
-                            другом. Также у нас есть комнаты для встреч и
-                            переговоров, оборудованные новейшими технологиями
-                            для проведения онлайн-встреч и конференций.
-                        </p>
-                    </div>
+                <h2 class="subtitle">В качестве одного из ключевых хищников волки играют очень важную роль в балансе экосистем таких биомов, как леса умеренных широт, тайга, тундра, степи и горные системы.</h2>
+                <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+                <div style="color: black;" class="scroll-button animate-scroll" tabindex="0">
+                    <a href="/about">Clock Here</a>
+                    <div class="arrow">&rarr;</div>
                 </div>
             </div>
         </div>
-        <div class="aside">
-            <div class="ArticleImg">
-                <img src="images/icon.jpg" alt="icon" width="200px"/>
-            </div>
-            <div class="Article">
-                <img src="images/moose.jpg" alt="moose" width="200px"/>
-                <p>03.06.2023</p>
-                <p>
-                    Меня зовут Илья , и я хочу рассказать о фреймворке Svelte,
-                    который стал для меня настоящей находкой. Для тех, кто не
-                    знаком с этим инструментом, Svelte - это open-source
-                    JavaScript-фреймворк для создания веб-приложений. Одно из
-                    главных преимуществ Svelte - это то, что он позволяет писать
-                    код практически так же, как в обычном HTML и CSS. Для
-                    сравнения, во многих других фреймворках <i>....</i>
-                </p>
-            </div>
-            <div class="Article">
-                <img src="images/Kat.jpg" alt="Kat" width="200px"/>
-                <p>02.06.2023</p>
-                <p>
-                    Привет всем! Меня зовут Василий, и сегодня я хочу рассказать
-                    вам о моем любимом JavaScript-фреймворке - React. В
-                    настоящее время React является одним из самых популярных
-                    фреймворков в веб-разработке. Я хочу поделиться с вами своим
-                    опытом и объяснить, почему я считаю, что React - отличный
-                    выбор для разработки приложений любого уровня сложности. <i
-                        >....</i
-                    >
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <p>&#x24b8 2023</p>
     </div>
 </div>
+<div class="background-div"></div>
 
 <style>
-    .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #231a09;
-        color: white;
-        margin-left: 10px;
-        border-radius: 10px 0px 10 px 0px;
-        border: #231a09 solid 1px;
-    }
-    .menu {
-        display: flex;
-        justify-content: space-around;
-    }
-    .item {
-        margin-left: 20px;
-        color: white;
+    .info {
         text-align: center;
-        margin-right: 10px;
+        position: relative;
     }
-    .icon {
-        margin-left: 10px;
-    }
-    a {
-        color: white;
-        text-decoration: none;
-    }
-    a:visited {
-        color: white;
-        text-decoration: none;
-    }
-    a:active {
-        color: grey;
-        text-decoration: none;
-    }
-    .MainContainer {
+    .info-container {
+        height: 100%;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: start;
+    }
+    .container {
+        max-width: 1400px;
+        margin: 190px 0 0 2.5rem;
+    }
+    .info h1 {
+        font-size: 4rem;
+        margin: 0;
+    }
+    .info h1 p {
+        position: relative;
+        font: inherit;
+        margin: 0;
+        text-align: left;
+        line-height: 130%;
+        width: fit-content;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+    }
+    .info h2 {
+        max-width: 65ch;
+        font-weight: 200;
+        margin-top: 0.50rem;
+    }
+    .background-div {
+        background-color: #ecebe8;
+        width: 100%;
+        height: 56vh;
+        margin: -205px auto;
+    }
+    .info .info-text {
+        position: relative;  
+    }
+    .scroll-button {
+        display: flex;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .scroll-button .arrow {
+        margin-left: 0.50rem;
     }
 </style>
